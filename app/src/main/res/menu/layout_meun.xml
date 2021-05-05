@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--id：與視圖一樣，菜單選項也有一個ID，以便可以在代碼中引用它。
+        title：在您的情況下，該文本實際上不會顯示，但對於屏幕閱讀器識別菜單可能很有用
+        icon：默認為ic_linear_layout。但是，選擇該按鈕後，將打開或關閉此按鈕以顯示網格圖標。
+        showAsAction：這告訴系統如何顯示按鈕。由於此按鈕設置為始終，
+        因此該按鈕將始終在應用程序欄中可見，並且不會成為溢出菜單的一部分。 -->
+    <item
+        android:id="@+id/action_switch_layout"
+        android:icon="@drawable/ic_linear_layout"
+        android:title="@string/action_switch_layout"
+        app:showAsAction="always" />
+
+
+</menu>
